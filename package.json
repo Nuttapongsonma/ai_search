@@ -11,10 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.18.1"
+    "nuxt": "^2.0.0"
   },
-  "devDependencies": {},
-  "engines": {
-    "node": "18.x"
-  }
+  "devDependencies": {}
 }

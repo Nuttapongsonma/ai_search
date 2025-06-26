@@ -1,9 +1,9 @@
 {
-  "version": 2,
   "builds": [
-    { "src": "nuxt.config.js", "use": "@nuxt/vercel-builder" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/.output/server/index.mjs" }
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {}
+    }
   ]
 }
