@@ -1,6 +1,7 @@
-
 export default {
-  mode: 'universal',
+  // mode: 'universal',
+  ssr: false, // ✅ ปิด SSR (ทำให้เป็น SPA)
+  target: 'static', // ✅ Optional: ให้ Nuxt build เป็น static site (ถ้าอยาก)
   /*
   ** Headers of the page
   */
