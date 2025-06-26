@@ -129,7 +129,7 @@ export default {
       try {
         const payload = { message: userMessage }
         if (this.selectedProgram) payload.program_name = this.selectedProgram
-        if (this.selectedType) payload.type = this.selectedType // เพิ่ม type เข้า payload ถ้ามีเลือก
+        if (this.selectedType) payload.type = this.selectedType // เพิ่ม type เข้า payload ถ้ามีเลือก 
 
         const res = await fetch('http://localhost:5678/webhook/ai_search', {
           method: 'POST',
