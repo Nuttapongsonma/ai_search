@@ -131,7 +131,7 @@ export default {
         if (this.selectedProgram) payload.program_name = this.selectedProgram
         if (this.selectedType) payload.type = this.selectedType // เพิ่ม type เข้า payload ถ้ามีเลือก 
 
-        const res = await fetch('http://localhost:5678/webhook/ai_search', {
+        const res = await fetch('http://34.9.161.222:5678/webhook/ai_search', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
